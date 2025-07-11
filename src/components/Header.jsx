@@ -3,7 +3,7 @@ import logo from '/Users/diegojorquera/Documents/Proyectos Frontend/news-homepag
 
 export const Header = () => {
   return (
-    <header className="bg-red-500 flex place-content-between items-center">
+    <header className="flex place-content-between items-center mb-8">
       <img src={logo} alt="Logo" />
       <NavBar />
     </header>
